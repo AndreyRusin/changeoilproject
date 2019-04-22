@@ -1,0 +1,581 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Libre+Baskerville|Lora:400,700|Underdog");
+
+/*
+font-family: 'Lora', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Underdog', cursive;
+font-family: 'Libre Baskerville', serif;
+*/
+/*
+**********MAIN STAFF*************
+*/
+* {
+  font-size: 62.5%;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+/*
+**********MAIN STAFF*************
+*/
+
+/*=============================================
+=            HEADER            =
+=============================================*/
+
+header {
+  text-shadow: #000 2px 2px;
+  font-size: 5rem;
+  font-weight: 600;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  font-family: "Lora", serif;
+  height: 100vh;
+  background: url("../img/gf_may_engine_oil.jpg") top center no-repeat / cover;
+}
+.header_container {
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+}
+header h1 {
+  text-shadow: #000 2px 2px;
+  font-family: "Indie Flower", cursive;
+  font-size: 5rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+header hr {
+  width: 100%;
+  color: white;
+}
+header p {
+  color: rgb(255, 255, 255);
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2;
+}
+.link_to_phone {
+  font-size: 0.9em;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.link_to_phone:hover,
+.link_to_phone:active,
+.link_to_phone:focus {
+  color: rgb(204, 73, 73);
+  cursor: pointer;
+}
+.link_to_button_contact {
+  text-shadow: none;
+  background: rgb(204, 73, 73);
+  padding: 15px;
+  color: white;
+  max-width: 200px;
+  margin: 0 auto;
+  border-radius: 11px;
+  font-family: "Libre Baskerville", serif;
+  text-decoration: none;
+}
+
+.link_to_button_contact:hover,
+.link_to_button_contact:active,
+.link_to_button_contact:focus {
+  color: rgb(204, 73, 73);
+  transition: all 0.3 ease;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/*=============================================
+=            NAVIGATION            =
+=============================================*/
+
+nav {
+  border-top: white 1px solid;
+  border-bottom: white 1px solid;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: rgb(12, 11, 56);
+}
+.nav_menu {
+  display: flex;
+  list-style: none;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.nav_menu a {
+  font-family: "Lora", serif;
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.nav_menu_item + .nav_menu_item {
+  margin-left: 3vw;
+}
+.nav_menu_item a:hover,
+.nav_menu_item a:active,
+.nav_menu_item a:focus {
+  color: rgb(204, 73, 73);
+  font-weight: 500;
+}
+.nav_container {
+  display: flex;
+}
+.main_offers {
+  background-color: rgb(187, 23, 37);
+  color: white;
+}
+.offer_container {
+  display: flex;
+  flex-flow: column wrap;
+  text-shadow: 2px 2px 2px #000;
+}
+.main_offers_title {
+  font-family: "Lora", serif;
+  color: white;
+  font-size: 3rem;
+}
+.offers {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.offer_item {
+  text-align: center;
+}
+
+.offer_title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 2rem;
+  max-width: 250px;
+}
+/*=====  End of NAVIGATION  ======*/
+
+/*=============================================
+=            SERVICE BLOCK            =
+=============================================*/
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 50px;
+  justify-content: space-around;
+}
+.service_block h3 {
+  line-height: 2;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+}
+.service_block_subtitle {
+  font-size: 2.1rem;
+  margin-bottom: 42px;
+}
+.service_card {
+  transition: 0.3s ease;
+  padding: 15px;
+  border: 1px solid rgb(179, 166, 166);
+  box-shadow: 2px 2px 5px grey;
+  text-align: center;
+}
+.service_card h3 {
+  margin: 0 auto;
+  font-size: 3rem;
+}
+.service_card p {
+  font-family: "Open Sans", Courier, monospace;
+  font-size: 2rem;
+}
+.service_image {
+  width: 100%;
+  height: 300px;
+}
+.service_card:hover {
+  transform: scale(1.04);
+  box-shadow: inset 0 0 0 15px #970921;
+}
+/*=====  End of SERVICE BLOCK  ======*/
+
+/*=============================================
+=            STORIES            =
+=============================================*/
+.stories {
+  margin-top: 100px;
+  background: url("../img/dark_theme_background.png") top center no-repeat /
+    cover;
+  color: white;
+}
+.outer_slider {
+  line-height: 1.8;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-between;
+}
+.outer_slider i {
+  font-size: 10rem;
+  color: white;
+  cursor: pointer;
+  align-self: center;
+}
+.inner_slider {
+  width: 800px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+.story.active {
+  display: block;
+}
+.story {
+  display: none;
+  max-width: 800px;
+  max-height: 700px;
+}
+.story h3 {
+  font-size: 3.5rem;
+}
+.story img {
+  display: block;
+  margin: 0 auto;
+  max-width: 420px;
+}
+.story p {
+  font-size: 2rem;
+}
+.next {
+  margin-right: 5vw;
+}
+.prev {
+  margin-left: 5vw;
+}
+/*=====  End of STORIES  ======*/
+.contact_us {
+  max-width: 700px;
+  margin: 100px auto;
+  font-size: 7rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.contact_us a {
+  color: #970921;
+  font-weight: 800;
+  font-size: 0.8em;
+}
+.contact_us a.link_to_button_contact {
+  line-height: 5;
+  color: #fff;
+}
+.contact_us a.link_to_button_contact:hover {
+  line-height: 5;
+  color: #970921;
+}
+
+/*=============================================
+=            BEST EMPLOYEES            =
+=============================================*/
+.best_employees {
+  background-color: #d5231f;
+  font-family: Courier, monospace;
+  font-size: 3rem;
+  color: white;
+}
+.best_employees_title {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 3rem;
+}
+.best_employees_title hr {
+  color: white;
+  width: 20vw;
+}
+
+.employee_images {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 40px;
+}
+.employee_images img {
+  border: 15px solid white;
+  border-radius: 70%;
+  width: 100%;
+  max-width: 300px;
+}
+.best_employee {
+  padding: 15px;
+}
+/*=====  End of BEST EMPLOYEES  ======*/
+
+/*=============================================
+=            GALLERY            =
+=============================================*/
+#gallery_title {
+  font-size: 5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(35, 11, 51);
+}
+#gallery_hr {
+  color: rgb(22, 19, 24);
+  width: 5vw;
+  margin-top: 5px;
+}
+.gallery_images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row;
+  margin-top: 50px;
+  /* display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  */
+}
+.gallery_images img {
+  width: 25vw;
+  /* width: 100%;
+  height: 50%;
+  max-width: 300px; */
+}
+/*=====  End of GALLERY  ======*/
+
+/*=============================================
+=            CONTACTS            =
+=============================================*/
+.contacts {
+  background-color: rgb(5, 44, 92);
+}
+.contact_block {
+  display: flex;
+  padding-top: 80px;
+}
+.contact_item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.contact_item + .contact_item {
+  margin-top: 10px;
+}
+.contact_item pre,
+#link_1,
+#link_2 {
+  line-height: 1.35;
+  margin: 0;
+  padding-left: 5%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.8rem;
+}
+#link_1 {
+  color: rgba(95, 146, 255, 0.726);
+  text-decoration: underline;
+}
+#link_2:hover {
+  color: #ff0080;
+}
+.form_contact {
+  margin-bottom: 40px;
+  flex: 3;
+  margin-left: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 70px 200px 70px;
+  grid-gap: 20px;
+  grid-template-areas:
+    "name email"
+    "msg msg"
+    "password btn";
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form_contact * {
+  background-color: rgb(7, 18, 36);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+
+  font-size: 2rem;
+}
+.form_contact input[type="text"] {
+  grid-area: name;
+}
+.form_contact input[type="email"] {
+  grid-area: email;
+}
+.form_contact input[type="password"] {
+  grid-area: password;
+}
+.form_contact input[type="submit"] {
+  grid-area: btn;
+  background-color: rgb(212, 58, 135);
+  width: 200px;
+}
+.form_contact input[type="submit"]:hover {
+  background-color: rgba(212, 58, 135, 0.7);
+  cursor: pointer;
+}
+.form_contact textarea {
+  grid-area: msg;
+}
+/*=====  End of CONTACTS  ======*/
+
+/*=============================================
+=            FOOTER            =
+=============================================*/
+footer {
+  color: #939694;
+  background-color: #12172c;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 4rem;
+  align-content: center;
+}
+footer a {
+  max-width: 130px;
+}
+footer i:hover {
+  color: rgb(212, 58, 135);
+  cursor: pointer;
+}
+.social_icons {
+  width: 20vw;
+  margin-left: auto;
+}
+.social_icons_i + .social_icons_i {
+  margin-left: 15px;
+}
+.social_icons_i {
+  color: white;
+  font-size: 3rem;
+}
+/*=====  End of FOOTER  ======*/
+
+/*=============================================
+=            MEDIA QUERIES            =
+=============================================*/
+
+@media (max-height: 500px) {
+  * {
+    font-size: 35%;
+    text-shadow: none;
+  }
+  .container {
+    width: 95%;
+  }
+}
+@media (min-width: 1400px) {
+  .nav_container {
+    justify-content: space-around;
+  }
+}
+@media all and (max-width: 1199px) {
+  .container {
+    width: 95%;
+  }
+  .gallery_images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .gallery_images img {
+    width: 50vw;
+  }
+}
+@media all and (max-width: 991px) {
+  .form_contact {
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 70px 200px 70px 70px;
+    grid-gap: 20px;
+    grid-template-areas:
+      "name"
+      "email"
+      "msg"
+      "password"
+      "btn";
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+  }
+  .contact_block {
+    padding-top: 40px;
+  }
+}
+@media all and (max-width: 768px) {
+  * {
+    font-size: 42%;
+  }
+  .header_container {
+    width: 90%;
+  }
+  header p,
+  header a {
+    font-size: 3rem;
+  }
+  .service_card {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media all and (max-width: 575px) {
+  .employee_images img {
+    width: 90%;
+  }
+  .nav_menu_item + .nav_menu_item {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+  .logo {
+    margin-top: 27px;
+  }
+  .nav_menu {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+  }
+  .form_contact > input[type="submit"] {
+    margin: 0 auto;
+  }
+  .contact_block {
+    flex-direction: column;
+  }
+  .form_contact {
+    margin-top: 30px;
+  }
+  .gallery_images {
+    grid-template-columns: 1fr;
+  }
+  .gallery_images img {
+    width: 100vw;
+  }
+  .contact_block {
+    flex-direction: column;
+  }
+  footer {
+    padding: 10px 5px;
+    font-size: 2rem;
+  }
+  .social_icons {
+    width: 30vw;
+    text-align: center;
+    padding-top: 35px;
+  }
+  .social_icons_i + .social_icons_i {
+    margin-left: 5px;
+  }
+  .social_icons_i {
+    color: white;
+    font-size: 2rem;
+  }
+}
