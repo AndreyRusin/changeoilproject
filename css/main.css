@@ -589,4 +589,7 @@ footer i:hover {
     margin-left: 0;
     margin-right: 0;
   }
+  footer a img {
+    margin-top: 27px;
+  }
 }
