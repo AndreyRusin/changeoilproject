@@ -578,4 +578,15 @@ footer i:hover {
     color: white;
     font-size: 2rem;
   }
+  .story img {
+    width: 200px;
+  }
+  .social_icons p {
+    font-size: 10px;
+  }
+  .outer_slider i {
+    font-size: 7rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
