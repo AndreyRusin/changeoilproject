@@ -84,6 +84,7 @@ header p {
   border-radius: 11px;
   font-family: "Libre Baskerville", serif;
   text-decoration: none;
+  text-align: center;
 }
 
 .link_to_button_contact:hover,
