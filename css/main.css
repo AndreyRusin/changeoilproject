@@ -596,4 +596,13 @@ footer i:hover {
   footer a img {
     margin-top: 27px;
   }
+  .contact_us p {
+    font-size: 14px;
+  }
+  .contact_us a {
+    font-size: 14px;
+  }
+  .contact_us a.link_to_button_contact {
+    font-size: 15px;
+  }
 }
